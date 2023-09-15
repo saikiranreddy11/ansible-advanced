@@ -1,0 +1,6 @@
+- name: This is an example on working the config file
+  hosts: centos
+  tasks:
+  - name: printing the text
+    ansible.builtin.shell: echo "hello , configuarion file" > /tmp/hello.txt
+      
