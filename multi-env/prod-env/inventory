@@ -1,2 +1,6 @@
 [mongodb]
 10.40.3.224
+
+
+[mongodb:vars]
+NAME= Hello, Iam prod-Server

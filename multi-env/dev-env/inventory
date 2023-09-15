@@ -1,2 +1,6 @@
 [mongodb]
 10.40.3.122
+
+
+[mongodb:vars]
+NAME= Hello, Iam DEV-Server

@@ -1,0 +1,7 @@
+- name: installing the mongodb
+  hosts: mongodb
+  become: yes
+  tasks:
+  - name: checking the inventory variables
+    ansible.builtin.debug:
+      msg: {{NAME}}
