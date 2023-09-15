@@ -4,4 +4,4 @@
   tasks:
   - name: checking the inventory variables
     ansible.builtin.debug:
-      msg: {{NAME}}
+      msg: "{{NAME}}"
