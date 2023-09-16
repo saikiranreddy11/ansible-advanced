@@ -1,5 +1,5 @@
 [centos]
-10.40.3.219 ansible_user=centos
+10.40.3.162 ansible_user=centos
 
 
 [ubuntu]
