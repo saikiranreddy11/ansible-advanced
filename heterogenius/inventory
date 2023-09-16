@@ -3,4 +3,4 @@
 
 
 [ubuntu]
-10.40.3.28 ansible_username=ubuntu
+10.40.3.28 ansible_user=ubuntu
