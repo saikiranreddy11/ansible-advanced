@@ -8,8 +8,8 @@
 
   - name: creating the user in centos
     ansible.builtin.command: useradd saikiran
-    when: ansible_facts['distribution'] == "centos"
+    when: ansible_facts['distribution'] == "Centos"
 
   - name: creating the user in ubuntu
     ansible.builtin.command: adduser saikiran
-    when: ansible_facts['distribution'] == "ubuntu"
+    when: ansible_facts['distribution'] == "Ubuntu"
