@@ -1,0 +1,7 @@
+- name: this is the example to gather the facts
+  hosts: centos
+  become: yes
+  tasks:
+  - name: tasks for gathering the facts
+    ansible.builtin.debug:
+      msg: "printing the facts: {{ansible_facts}}"
